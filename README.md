@@ -10,6 +10,21 @@ Installed latest node.js and npm and running fhem.
 
 Run `grunt` for building and `grunt serve` for preview. After `grunt` you can copy the content of the dist folder to your own web server.
 
+## How does it look like?
+
+When nothing is selected:
+
+![Nothing selected](https://kseb.github.io/TouchFhem/1.png)
+
+
+After clicking on a button:
+
+![After click](https://kseb.github.io/TouchFhem/2.png)
+
+After getting a successful answer from the FHEM server the button turns green for a few seconds:
+
+![Successful](https://kseb.github.io/TouchFhem/3.png)
+
 ## Configuration
 
 In app/config.json lies an example configuration file. It starts with the configuration of the URL to the fhem web interface and is followed by the configuration of the different configuration sets. E.g.:
