@@ -1,0 +1,10 @@
+<div ng-repeat="(groupkey, value) in groups" class="panel panel-default">
+  <div class="panel-heading small">{{value.groupname}}</div>
+  <div class="panel-body btn-group btn-group-sm">
+    <button ng-repeat="(buttonkey, value) in value.buttons" type="button"
+        class="btn btn-sm btn-default"
+        ng-click="sendCommand('{{groupkey}}', '{{buttonkey}}', $event)">
+      {{value.name}} {{(key)}}
+    </button>
+  </div>
+</div>

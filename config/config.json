@@ -1,0 +1,167 @@
+{
+  "url": "http://127.0.0.1:8083/fhem?room=MAX&cmd=jsonlist2&XHR=1",
+  "groups":
+  [
+    {
+      "groupname": "All rooms",
+      "buttons": [
+        {
+          "name": "19°C",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "19.0",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating2"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        },{
+          "name": "20°C",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "20.0",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating2"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        },{
+          "name": "off",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "off",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating2"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        },
+        {
+          "name": "ECO",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "eco",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating2"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        },
+        {
+          "name": "AUTO",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "auto",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating2"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        }
+
+      ]
+    },
+    {
+      "groupname": "All rooms except one",
+      "buttons": [
+        {
+          "name": "19°C",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "19.0",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        },
+        {
+          "name": "ECO",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "eco",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        },
+        {
+          "name": "20°C",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "20.0",
+          "devices": [
+            {"deviceid": "heating1"},
+            {"deviceid": "heating3"},
+            {"deviceid": "heating4"},
+            {"deviceid": "heating5"},
+            {"deviceid": "heating6"}
+          ]
+        }
+      ]
+    },
+    {
+      "groupname": "One room",
+      "buttons": [
+        {
+          "name": "ECO",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "eco",
+          "devices": [
+            {"deviceid": "heating2"}
+          ]
+        },
+        {
+          "name": "AUTO",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "auto",
+          "devices": [
+            {"deviceid": "heating2"}
+          ]
+        },
+        {
+          "name": "20°C",
+          "cmd": "set",
+          "arg": "desiredTemperature",
+          "room": "MAX",
+          "val": "20.0",
+          "devices": [
+            {"deviceid": "heating2"}
+          ]
+        }
+      ]
+    }
+  ]
+}
