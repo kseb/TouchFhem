@@ -44,8 +44,8 @@ In app/config.json lies an example configuration file. It starts with the config
           "room": "MAX",
           "val": "19.0",
           "devices": [
-          {"deviceid": "dev1"},
-          {"deviceid": "dev2"}
+            {"deviceid": "dev1"},
+            {"deviceid": "dev2"}
           ]
         },{
           "name": "off",
@@ -54,8 +54,9 @@ In app/config.json lies an example configuration file. It starts with the config
           "room": "MAX",
           "val": "off",
           "devices": [
-          {"deviceid": "dev1"},
-          {"deviceid": "dev2"}          ]
+            {"deviceid": "dev1"},
+            {"deviceid": "dev2"}
+          ]
         }
       ]
     },
