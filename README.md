@@ -1,6 +1,6 @@
 # TouchFhem
 
-This JavaScript webapp allows to control a [FHEM](http://fhem.de/fhem.html) instance via a simple configurable touch interface. It is even possible to display it on a very small 320x240 pixel display, e.g. on a raspberry pi. In my case I tested it only with the MAX! heating controllers, but it should work with more devices controlled by FHEM.
+This JavaScript webapp allows to control a [FHEM](http://fhem.de/fhem.html) instance via a simple configurable touch interface with one single touch! It is even possible to display it on a very small 320x240 pixel display, e.g. on a raspberry pi. In my case I tested it only with the MAX! heating controllers, but it should work with more devices controlled by FHEM.
 
 ## Requirements
 
